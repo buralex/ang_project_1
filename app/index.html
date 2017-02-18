@@ -36,8 +36,26 @@
   <script src="app.js"></script>
   <script src="view1/view1.js"></script>
   <script src="view2/view2.js"></script>
+  <script src="view1/MainController.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+  <script >
+          var elms = document.querySelectorAll("h1");
+
+for (var i = 0; i < elms.length; i++) {
+  var el = elms[i];
+  el.style.backgroundColor = "gray";
+}
+
+function myFunction() {
+    var elms = document.querySelectorAll("h1");
+
+    for (var i = 0; i < elms.length; i++) {
+      var el = elms[i];
+      el.style.backgroundColor = "gray";
+}
+}
+  </script>
 </body>
 </html>
